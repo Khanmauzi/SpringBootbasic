@@ -1,0 +1,12 @@
+Configuration
+
+- LocalResolver
+    -Default Locale - Locale.US
+- ResourceBundleMessageSource
+
+
+##USAGE
+
+-Autowire message source
+-@RequestHeader(value = "Accept-Language", required = false) Locale locae
+-messageSource.getMessage("HelloWorld.message",null,local)
